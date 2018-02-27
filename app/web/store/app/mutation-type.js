@@ -1,0 +1,3 @@
+'use strict';
+export var SET_ARTICLE_LIST = 'SET_ARTICLE_LIST';
+export var SET_ARTICLE_DETAIL = 'SET_ARTICLE_DETAIL';

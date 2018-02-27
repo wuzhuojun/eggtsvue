@@ -1,0 +1,11 @@
+2018-02-27 11:56:38,443 ERROR 14288 [-/127.0.0.1/-/8ms GET /] nodejs.AssertionError: Can't find home/index.js from d:\code\easywebpack\eggtsvue\app\view
+    at Map.resolve (d:\code\easywebpack\eggtsvue\node_modules\egg-view\lib\view_manager.js:74:5)
+name: 'AssertionError'
+actual: undefined
+expected: true
+operator: '=='
+message: 'Can\'t find home/index.js from d:\\code\\easywebpack\\eggtsvue\\app\\view'
+generatedMessage: false
+pid: 14288
+hostname: DESKTOP-AKNKGUL
+

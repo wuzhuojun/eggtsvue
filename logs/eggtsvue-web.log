@@ -1,0 +1,2 @@
+2018-02-27 12:00:11,335 INFO 4056 [-/127.0.0.1/-/54ms GET /] [access] 127.0.0.1: - GET / HTTP/200 8354 - 48 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+2018-02-27 12:00:12,758 INFO 14928 [-/127.0.0.1/-/64ms GET /] [access] 127.0.0.1: - GET / HTTP/200 8354 - 59 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36

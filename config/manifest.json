@@ -1,0 +1,56 @@
+{
+  "app/app.js": "/public/js/app/app.js",
+  "about/about.js": "/public/js/about/about.js",
+  "home/index.js": "/public/js/home/index.js",
+  "common.js": "/public/js/common.js",
+  "img/egg-vue-webpack-dev.png": "/public/img/egg-vue-webpack-dev.png",
+  "img/loading.gif": "/public/img/loading.gif",
+  "img/logo.png": "/public/img/logo.png",
+  "font/fontawesome-webfont.ttf": "/public/font/fontawesome-webfont.ttf",
+  "vendor.js": "/public/js/vendor.js",
+  "deps": {
+    "app/app.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/common.js",
+        "/public/js/app/app.js"
+      ],
+      "css": []
+    },
+    "about/about.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/common.js",
+        "/public/js/about/about.js"
+      ],
+      "css": []
+    },
+    "home/index.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/common.js",
+        "/public/js/home/index.js"
+      ],
+      "css": []
+    },
+    "common.js": {
+      "js": [
+        "/public/js/common.js",
+        "/public/js/common.js"
+      ],
+      "css": []
+    },
+    "vendor.js": {
+      "js": [
+        "/public/js/common.js",
+        "/public/js/vendor.js"
+      ],
+      "css": []
+    }
+  },
+  "info": {
+    "publicPath": "/public/",
+    "buildPath": "\\public",
+    "mapped": true
+  }
+}

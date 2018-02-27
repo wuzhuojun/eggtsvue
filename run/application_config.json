@@ -1,0 +1,557 @@
+{
+  "config": {
+    "session": {
+      "maxAge": 86400000,
+      "key": "EGG_SESS",
+      "httpOnly": true,
+      "encrypt": true,
+      "overwrite": true,
+      "signed": true,
+      "encode": "<Function encode>",
+      "decode": "<Function decode>",
+      "genid": "<Function anonymous>"
+    },
+    "security": {
+      "domainWhiteList": [],
+      "protocolWhiteList": [],
+      "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
+      "csrf": {
+        "enable": true,
+        "useSession": false,
+        "ignoreJSON": false,
+        "cookieName": "csrfToken",
+        "sessionName": "csrfToken",
+        "headerName": "x-csrf-token",
+        "bodyName": "_csrf",
+        "queryName": "_csrf",
+        "matching": "<Function anonymous>"
+      },
+      "xframe": {
+        "enable": true,
+        "value": "SAMEORIGIN",
+        "matching": "<Function anonymous>"
+      },
+      "hsts": {
+        "enable": false,
+        "maxAge": 31536000,
+        "includeSubdomains": false
+      },
+      "dta": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "methodnoallow": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "noopen": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "nosniff": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "xssProtection": {
+        "enable": true,
+        "value": "1; mode=block",
+        "matching": "<Function anonymous>"
+      },
+      "csp": {
+        "enable": false,
+        "policy": {}
+      }
+    },
+    "helper": {
+      "shtml": {}
+    },
+    "jsonp": {
+      "limit": 50,
+      "callback": [
+        "_callback",
+        "callback"
+      ],
+      "csrf": false
+    },
+    "onerror": {
+      "errorPageUrl": "",
+      "appErrorFilter": null
+    },
+    "i18n": {
+      "defaultLocale": "en_US",
+      "dirs": [
+        "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-session\\config\\locales",
+        "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-security\\config\\locales",
+        "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-jsonp\\config\\locales",
+        "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-onerror\\config\\locales",
+        "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-i18n\\config\\locales",
+        "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-watcher\\config\\locales",
+        "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-multipart\\config\\locales",
+        "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-schedule\\config\\locales",
+        "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-logrotator\\config\\locales",
+        "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-static\\config\\locales",
+        "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-view\\config\\locales",
+        "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-view-vue-ssr\\config\\locales",
+        "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\locales",
+        "d:\\code\\easywebpack\\eggtsvue\\config\\locales"
+      ],
+      "queryField": "locale",
+      "cookieField": "locale",
+      "cookieMaxAge": "1y",
+      "functionName": "__"
+    },
+    "watcher": {
+      "type": "default",
+      "eventSources": {
+        "default": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-watcher\\lib\\event-sources\\default",
+        "development": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-watcher\\lib\\event-sources\\development"
+      }
+    },
+    "multipart": {
+      "autoFields": false,
+      "defaultCharset": "utf8",
+      "fieldNameSize": 100,
+      "fieldSize": 102400,
+      "fields": 10,
+      "fileSize": 10485760,
+      "files": 10,
+      "fileExtensions": [],
+      "whitelist": null
+    },
+    "customLogger": {
+      "scheduleLogger": {
+        "consoleLevel": "NONE",
+        "file": "C:\\Users\\NAN-NULL\\logs\\eggtsvue\\egg-schedule.log"
+      }
+    },
+    "logrotator": {
+      "filesRotateByHour": null,
+      "hourDelimiter": "-",
+      "filesRotateBySize": null,
+      "maxFileSize": 52428800,
+      "maxFiles": 10,
+      "rotateDuration": 60000,
+      "maxDays": 31
+    },
+    "static": {
+      "prefix": "/public/",
+      "dir": "d:\\code\\easywebpack\\eggtsvue\\public",
+      "dynamic": true,
+      "preload": false,
+      "buffer": false,
+      "maxFiles": 1000,
+      "files": "<LRU>"
+    },
+    "view": {
+      "root": [
+        "d:\\code\\easywebpack\\eggtsvue\\app\\view"
+      ],
+      "cache": false,
+      "defaultExtension": ".html",
+      "defaultViewEngine": "",
+      "mapping": {
+        ".js": "vue"
+      }
+    },
+    "vuessr": {
+      "doctype": "<!doctype html>",
+      "layout": "d:\\code\\easywebpack\\eggtsvue\\app\\web\\view\\layout.html",
+      "manifest": "d:\\code\\easywebpack\\eggtsvue\\config\\manifest.json",
+      "injectHeadRegex": "/(<\\/head>)/i",
+      "injectBodyRegex": "/(<\\/body>)/i",
+      "injectCss": true,
+      "injectJs": true,
+      "crossorigin": false,
+      "injectRes": [],
+      "fallbackToClient": true,
+      "cache": {
+        "max": 1000,
+        "maxAge": 604800000
+      },
+      "afterRender": "<Function afterRender>"
+    },
+    "env": "prod ",
+    "name": "eggtsvue",
+    "keys": "<String len: 6>",
+    "proxy": false,
+    "protocolHeaders": "x-forwarded-proto",
+    "ipHeaders": "x-forwarded-for",
+    "hostHeaders": "x-forwarded-host",
+    "pkg": {
+      "name": "eggtsvue",
+      "version": "1.0.2",
+      "description": "egg ts vue",
+      "scripts": {
+        "tsc": "tsc -p tsconfig.json",
+        "tsc:w": "tsc -p tsconfig.json -w",
+        "clean": "rm -rf app/**.js && rm -rf config/**.js && rm -rf index.js",
+        "build": "cross-env easywebpack build prod",
+        "build:dev": "cross-env easywebpack build dev",
+        "build:test": "cross-env easywebpack build test",
+        "build:prod": "cross-env easywebpack build prod",
+        "dev": "npm run tsc:w & node index.js",
+        "start": "set NODE_ENV=production && set EGG_SERVER_ENV=prod && node index.js",
+        "start:test": "cross-env EGG_SERVER_ENV=test node index.js",
+        "kill": "pkill --signal SIGINT egg-vue-webpack-boilerplate",
+        "kill-mac": "kill -9 $(lsof -i:7001 |grep 'node'|awk '{print $2}')",
+        "kill-win": "taskkill -PID $(netstat -ano | findstr 7001|awk '{print $5}') -F",
+        "restart": "npm run kill-port && npm run start",
+        "lint": "tslint .",
+        "fix": "tslint --fix ."
+      },
+      "dependencies": {
+        "axios": "^0.17.1",
+        "egg": "^2.1.0",
+        "egg-cors": "^2.0.0",
+        "egg-logger": "^1.5.0",
+        "egg-validate": "^1.0.0",
+        "egg-view-vue-ssr": "^3.0.2",
+        "element-ui": "^2.0.8",
+        "extend": "~3.0.0",
+        "lodash": "^4.17.4",
+        "mint-ui": "^2.2.9",
+        "mockjs": "^1.0.1-beta3",
+        "moment": "^2.17.1",
+        "server-side-render-resource": "^1.0.0",
+        "vue": "^2.5.0",
+        "vue-hot-reload-api": "^2.1.0",
+        "vue-router": "^3.0.1",
+        "vue-server-renderer": "^2.5.3",
+        "vuex": "^3.0.1",
+        "vuex-router-sync": "^5.0.0",
+        "webpack-manifest-plugin": "^1.3.2"
+      },
+      "devDependencies": {
+        "autod-egg": "^1.0.0",
+        "autoprefixer": "^7.1.4",
+        "babel-core": "^6.26.0",
+        "babel-loader": "^7.1.2",
+        "babel-plugin-add-module-exports": "^0.2.1",
+        "babel-plugin-syntax-dynamic-import": "^6.18.0",
+        "babel-plugin-transform-object-assign": "^6.22.0",
+        "babel-plugin-transform-object-rest-spread": "^6.26.0",
+        "babel-plugin-transform-runtime": "^6.15.0",
+        "babel-preset-env": "^1.6.0",
+        "cross-env": "^5.0.0",
+        "cz-conventional-changelog": "^2.1.0",
+        "directory-named-webpack-plugin": "^2.2.3",
+        "easywebpack-cli": "^3.5.2",
+        "easywebpack-vue": "^3.6.0",
+        "egg-logview": "^1.0.0",
+        "egg-webpack": "^3.2.8",
+        "egg-webpack-vue": "^2.0.0",
+        "eslint": "^4.3.0",
+        "eslint-config-egg": "^5.0.0",
+        "eslint-loader": "^1.9.0",
+        "eslint-plugin-vue": "^2.0.1",
+        "imagemin-webpack-plugin": "^1.5.2",
+        "ip": "^1.1.5",
+        "less": "^2.7.2",
+        "less-loader": "^4.0.5",
+        "node-sass": "^4.5.3",
+        "postcss-loader": "^2.0.6",
+        "progress-bar-webpack-plugin": "^1.10.0",
+        "sass-loader": "^6.0.6",
+        "ts-loader": "^3.2.0",
+        "tslint": "^5.9.1",
+        "tslint-loader": "^3.5.3",
+        "typescript": "^2.6.2",
+        "uglifyjs-webpack-plugin": "^1.1.2",
+        "vconsole": "^3.0.0",
+        "vue-template-compiler": "^2.4.4",
+        "webpack-manifest-plugin": "*",
+        "webpack-manifest-resource-plugin": "^2.0.2"
+      },
+      "engines": {
+        "node": ">=6.0.0"
+      },
+      "ci": {
+        "version": "6, 7, 8"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hubcarl/egg-vue-typescript-boilerplate.git"
+      },
+      "tnpm": {
+        "mode": "npm"
+      },
+      "author": "hubcarl@126.com",
+      "license": "MIT",
+      "homepage": "https://github.com/hubcarl/egg-vue-typescript-boilerplate",
+      "config": {
+        "commitizen": {
+          "path": "./node_modules/cz-conventional-changelog"
+        }
+      }
+    },
+    "baseDir": "d:\\code\\easywebpack\\eggtsvue",
+    "HOME": "C:\\Users\\NAN-NULL",
+    "rundir": "d:\\code\\easywebpack\\eggtsvue\\run",
+    "dump": {
+      "ignore": "<Set>"
+    },
+    "confusedConfigurations": {
+      "bodyparser": "bodyParser",
+      "notFound": "notfound",
+      "sitefile": "siteFile",
+      "middlewares": "middleware",
+      "httpClient": "httpclient"
+    },
+    "notfound": {
+      "pageUrl": ""
+    },
+    "siteFile": {
+      "/favicon.ico": "<Buffer len: 4286>"
+    },
+    "bodyParser": {
+      "enable": true,
+      "encoding": "utf8",
+      "formLimit": "100kb",
+      "jsonLimit": "100kb",
+      "strict": true,
+      "queryString": {
+        "arrayLimit": 100,
+        "depth": 5,
+        "parameterLimit": 1000
+      },
+      "returnRawBody": true
+    },
+    "logger": {
+      "dir": "d:\\code\\easywebpack\\eggtsvue\\logs",
+      "encoding": "utf8",
+      "env": "prod ",
+      "level": "INFO",
+      "consoleLevel": "DEBUG",
+      "disableConsoleAfterReady": true,
+      "outputJSON": false,
+      "buffer": true,
+      "appLogName": "eggtsvue-web.log",
+      "coreLogName": "egg-web.log",
+      "agentLogName": "egg-agent.log",
+      "errorLogName": "common-error.log",
+      "coreLogger": {},
+      "allowDebugAtProd": true,
+      "type": "application"
+    },
+    "httpclient": {
+      "enableDNSCache": false,
+      "dnsCacheMaxLength": 1000,
+      "dnsCacheMaxAge": 10000,
+      "request": {
+        "timeout": 5000
+      },
+      "httpAgent": {
+        "keepAlive": true,
+        "freeSocketKeepAliveTimeout": 4000,
+        "maxSockets": 9007199254740991,
+        "maxFreeSockets": 256
+      },
+      "httpsAgent": {
+        "keepAlive": true,
+        "freeSocketKeepAliveTimeout": 4000,
+        "maxSockets": 9007199254740991,
+        "maxFreeSockets": 256
+      }
+    },
+    "meta": {
+      "enable": true,
+      "logging": false
+    },
+    "coreMiddleware": [
+      "meta",
+      "siteFile",
+      "notfound",
+      "static",
+      "bodyParser",
+      "overrideMethod",
+      "session",
+      "securities",
+      "i18n"
+    ],
+    "workerStartTimeout": 600000,
+    "cluster": {
+      "listen": {
+        "path": "",
+        "port": 7001,
+        "hostname": ""
+      }
+    },
+    "clusterClient": {
+      "responseTimeout": 60000
+    },
+    "middleware": [
+      "access"
+    ],
+    "coreMiddlewares": [
+      "meta",
+      "siteFile",
+      "notfound",
+      "static",
+      "bodyParser",
+      "overrideMethod",
+      "session",
+      "securities",
+      "i18n"
+    ],
+    "appMiddlewares": [
+      "access"
+    ],
+    "appMiddleware": [
+      "access"
+    ],
+    "multipartParseOptions": {
+      "autoFields": false,
+      "defCharset": "utf8",
+      "limits": {
+        "fieldNameSize": 100,
+        "fieldSize": 102400,
+        "fields": 10,
+        "fileSize": 10485760,
+        "files": 10
+      },
+      "checkFile": "<Function checkFile>"
+    }
+  },
+  "plugins": {
+    "session": {
+      "enable": true,
+      "package": "egg-session",
+      "name": "session",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\plugin.js",
+      "path": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-session",
+      "version": "3.1.0"
+    },
+    "security": {
+      "enable": true,
+      "package": "egg-security",
+      "name": "security",
+      "dependencies": [],
+      "optionalDependencies": [
+        "session"
+      ],
+      "env": [],
+      "from": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\plugin.js",
+      "path": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-security",
+      "version": "2.0.0"
+    },
+    "jsonp": {
+      "enable": true,
+      "package": "egg-jsonp",
+      "name": "jsonp",
+      "dependencies": [],
+      "optionalDependencies": [
+        "security"
+      ],
+      "env": [],
+      "from": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\plugin.js",
+      "path": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-jsonp",
+      "version": "2.0.0"
+    },
+    "onerror": {
+      "enable": true,
+      "package": "egg-onerror",
+      "name": "onerror",
+      "dependencies": [],
+      "optionalDependencies": [
+        "jsonp"
+      ],
+      "env": [],
+      "from": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\plugin.js",
+      "path": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-onerror",
+      "version": "2.0.0"
+    },
+    "i18n": {
+      "enable": true,
+      "package": "egg-i18n",
+      "name": "i18n",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\plugin.js",
+      "path": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-i18n",
+      "version": "2.0.0"
+    },
+    "watcher": {
+      "enable": true,
+      "package": "egg-watcher",
+      "name": "watcher",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\plugin.js",
+      "path": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-watcher",
+      "version": "3.0.0"
+    },
+    "multipart": {
+      "enable": true,
+      "package": "egg-multipart",
+      "name": "multipart",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\plugin.js",
+      "path": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-multipart",
+      "version": "2.0.0"
+    },
+    "schedule": {
+      "enable": true,
+      "package": "egg-schedule",
+      "name": "schedule",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\plugin.js",
+      "path": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-schedule",
+      "version": "3.3.0"
+    },
+    "logrotator": {
+      "enable": true,
+      "package": "egg-logrotator",
+      "name": "logrotator",
+      "dependencies": [
+        "schedule"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\plugin.js",
+      "path": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-logrotator",
+      "version": "3.0.2"
+    },
+    "static": {
+      "enable": true,
+      "package": "egg-static",
+      "name": "static",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "d:\\code\\easywebpack\\eggtsvue\\config\\plugin.js",
+      "path": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-static",
+      "version": "2.1.0"
+    },
+    "view": {
+      "enable": true,
+      "package": "egg-view",
+      "name": "view",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\plugin.js",
+      "path": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-view",
+      "version": "2.1.0"
+    },
+    "vuessr": {
+      "enable": true,
+      "package": "egg-view-vue-ssr",
+      "name": "vuessr",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "d:\\code\\easywebpack\\eggtsvue\\config\\plugin.js",
+      "path": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-view-vue-ssr",
+      "version": "3.0.6"
+    }
+  }
+}

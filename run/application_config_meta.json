@@ -1,0 +1,336 @@
+{
+  "siteFile": {
+    "/favicon.ico": "d:\\code\\easywebpack\\eggtsvue\\config\\config.default.js"
+  },
+  "view": {
+    "cache": "d:\\code\\easywebpack\\eggtsvue\\config\\config.default.js",
+    "root": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultExtension": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultViewEngine": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-view\\config\\config.default.js",
+    "mapping": {
+      ".js": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-view-vue-ssr\\config\\config.default.js"
+    }
+  },
+  "vuessr": {
+    "layout": "d:\\code\\easywebpack\\eggtsvue\\config\\config.default.js",
+    "doctype": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
+    "manifest": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
+    "injectHeadRegex": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
+    "injectBodyRegex": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
+    "injectCss": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
+    "injectJs": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
+    "crossorigin": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
+    "injectRes": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
+    "fallbackToClient": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
+    "cache": {
+      "max": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
+      "maxAge": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-view-vue-ssr\\config\\config.default.js"
+    },
+    "afterRender": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-view-vue-ssr\\config\\config.default.js"
+  },
+  "logger": {
+    "consoleLevel": "d:\\code\\easywebpack\\eggtsvue\\config\\config.default.js",
+    "dir": "d:\\code\\easywebpack\\eggtsvue\\config\\config.default.js",
+    "encoding": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+    "env": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+    "level": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+    "allowDebugAtProd": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "d:\\code\\easywebpack\\eggtsvue\\config\\config.default.js",
+    "dir": "d:\\code\\easywebpack\\eggtsvue\\config\\config.default.js",
+    "dynamic": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-static\\config\\config.default.js"
+  },
+  "keys": "d:\\code\\easywebpack\\eggtsvue\\config\\config.default.js",
+  "middleware": "d:\\code\\easywebpack\\eggtsvue\\config\\config.default.js",
+  "session": {
+    "maxAge": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-session\\config\\config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-security\\config\\config.default.js",
+    "csrf": {
+      "enable": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xframe": {
+      "enable": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-security\\config\\config.default.js",
+      "maxAge": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-watcher\\config\\config.default.js",
+    "eventSources": {
+      "default": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-watcher\\config\\config.default.js"
+    }
+  },
+  "multipart": {
+    "autoFields": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-multipart\\config\\config.default.js"
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-schedule\\config\\config.default.js"
+    }
+  },
+  "logrotator": {
+    "filesRotateByHour": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "env": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+  "name": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+    "version": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+    "description": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+    "scripts": {
+      "tsc": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "tsc:w": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "clean": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "build": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "build:dev": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "build:test": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "build:prod": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "dev": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "start": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "start:test": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "kill": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "kill-mac": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "kill-win": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "restart": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "lint": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "fix": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js"
+    },
+    "dependencies": {
+      "axios": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "egg": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "egg-cors": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "egg-logger": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "egg-validate": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "egg-view-vue-ssr": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "element-ui": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "extend": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "lodash": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "mint-ui": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "mockjs": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "moment": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "server-side-render-resource": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "vue": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "vue-hot-reload-api": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "vue-router": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "vue-server-renderer": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "vuex": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "vuex-router-sync": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "webpack-manifest-plugin": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "autod-egg": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "autoprefixer": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "babel-core": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "babel-loader": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "babel-plugin-add-module-exports": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "babel-plugin-syntax-dynamic-import": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "babel-plugin-transform-object-assign": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "babel-plugin-transform-object-rest-spread": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "babel-plugin-transform-runtime": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "babel-preset-env": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "cross-env": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "cz-conventional-changelog": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "directory-named-webpack-plugin": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "easywebpack-cli": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "easywebpack-vue": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "egg-logview": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "egg-webpack": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "egg-webpack-vue": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "eslint": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "eslint-config-egg": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "eslint-loader": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "eslint-plugin-vue": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "imagemin-webpack-plugin": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "ip": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "less": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "less-loader": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "node-sass": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "postcss-loader": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "progress-bar-webpack-plugin": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "sass-loader": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "ts-loader": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "tslint": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "tslint-loader": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "typescript": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "uglifyjs-webpack-plugin": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "vconsole": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "vue-template-compiler": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "webpack-manifest-plugin": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "webpack-manifest-resource-plugin": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js"
+    },
+    "engines": {
+      "node": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js"
+    },
+    "ci": {
+      "version": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js"
+    },
+    "repository": {
+      "type": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "url": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js"
+    },
+    "tnpm": {
+      "mode": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js"
+    },
+    "author": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+    "license": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+    "homepage": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+    "config": {
+      "commitizen": {
+        "path": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js"
+      }
+    }
+  },
+  "baseDir": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+    "strict": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "depth": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "httpclient": {
+    "enableDNSCache": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxAge": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+    "request": {
+      "timeout": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+    "logging": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "port": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "responseTimeout": "d:\\code\\easywebpack\\eggtsvue\\node_modules\\egg\\config\\config.default.js"
+  }
+}
